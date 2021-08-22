@@ -7,7 +7,7 @@ declare(strict_types=1);
  *
  * @author Polvanov Igor <polvanovv@gmail.com>
  */
-class Direction implements TurnableInterface
+class Direction implements DirectionInterface, TurnableInterface
 {
     public const NORTH = 'north';
     public const EAST  = 'east';
