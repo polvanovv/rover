@@ -16,7 +16,7 @@ class Direction implements DirectionInterface, TurnableInterface
 
     public const DIRECTIONS = [
         self::NORTH,
-        self::NORTH,
+        self::EAST,
         self::SOUTH,
         self::WEST,
     ];
